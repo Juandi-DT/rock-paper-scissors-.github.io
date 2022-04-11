@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <!-- Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again -->
+</head>
+<body>
+  <main>
+    <div class="juego-content">
+
+      <div class="header">
+        <div class="text-static">
+          <span>ROCK</span>
+          <span>PAPER</span>
+          <span>SCISSORS</span>          
+        </div>
+        <div class="score-content">
+          <span class="score-text">SCORE</span>
+          <span class="score-number"></span>
+        </div>
+      </div>
+
+      <div class="options">
+        <div class="options-content">
+          <div class="option i1"><img class="bItem" src="images/paperIMG.svg" alt=""></div>
+          <div class="option i2"><img class="bItem" src="images/scissorsIMG.svg" alt=""></div>
+          <div class="option i3"><img class="bItem" src="images/rockIMG.svg" alt=""></div>
+        </div>
+        <div class="options-content-lucha">
+          <div class="option i1 trns-1 img1"><h2>THE HOUSE PICKED</h2><img class="bItem" src="images/paperIMG.svg" alt=""></div>
+  
+          <div class="Resultado">
+            <span class="Resultado-title">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;" class="mos-resultado-title">
+                </font>
+              </font>
+            </span>
+            <button class="Resultado-button" type="button">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">JUEGA DE NUEVO</font>
+              </font>
+            </button>
+          </div>
+  
+          <div class="option i2 trns-2 img2"><h2>YOU PICKED</h2><img class="bItem" src="images/paperIMG.svg" alt=""></div>
+        </div>
+      </div>
+      
+
+      <div class="bRules"><button id="bRules" type="button" onclick="abrirRules()">RULES</button></div>
+
+    </div>
+  </main>
+
+  <div class="RulesDiv" style="pointer-events: none;visibility: hidden;">
+    <div class="contentRules">
+      <div class="Rules-Content-Header">
+        <h2>NORMAS</h2>
+        <button onclick="cerrarRules()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#3B4262" fill-rule="evenodd" d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z" opacity=".25"></path></svg></button>
+      </div>
+      <div class="Rules-Content-Body"><img src="images/image-rules.svg" alt="Normas"></div>
+    </div>
+  </div>
+
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by &copy;<a href="https://github.com/Juandi-DT">Juandi_DT</a>.
+  </footer>
+
+  
+  <script src="js/class.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
