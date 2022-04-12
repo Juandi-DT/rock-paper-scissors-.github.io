@@ -1,6 +1,6 @@
 # Que es? 
 
-  
+
 
 Es el juego clásico de piedra papel o tijeras, para su construcción utilice diferentes herramientas entre las principales están: 
 
@@ -8,7 +8,7 @@ Es el juego clásico de piedra papel o tijeras, para su construcción utilice di
 
 - typeScript 
 
-  
+[ Puedes visitar la página rock paper scissors aquí. ]( https://juandi-dt.github.io/rock-paper-scissors-.github.io/ ) 
 
 Además, este es un desafío de la página frond mentor (**enlace a continuación**), donde lo resuelvo y este sitio es el resultado. 
 
